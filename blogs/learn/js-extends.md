@@ -18,7 +18,7 @@ sidebar: "auto"
 
 ```javascript
 function SuperType() {
-  this.name = "elephantX";
+  this.name = "X";
 }
 function SubType() {
   this.age = 22;
