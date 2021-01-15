@@ -11,6 +11,7 @@ sidebar: "auto"
 # 位运算应用
 
 [斯坦福大学整理的位运算技巧](http://graphics.stanford.edu/~seander/bithacks.html#OperationCounting)
+
 ## 获得 型最大值
 
 ```js
@@ -38,6 +39,31 @@ function getMinInt() {
 function getMinInt() {
   return 1 << -1; //-2147483648
 }
+```
+
+## 区分两个数大小
+
+```js
+// variables
+var a = 9285;
+var b = 3569;
+
+// 取大
+var max = a ^ ((a ^ b) & -(a < b));//9285;
+
+// 取小
+var min =  b ^ ((a ^ b) & -(a < b);//3569
+
+```
+
+## 判断正负
+
+```js
+function isPos(n) {
+  return n === n >>> 0 ? true : false;
+}
+isPos(-1); // false
+isPos(1); // true
 ```
 
 ## >>和<< 位运算
@@ -164,47 +190,55 @@ console.log((user & x) === x); // false 没有 x 权限
 // 执行异或操作，删除 r 权限
 user = user ^ r;
 ```
+
 ## 判断符号是否相等
+
 ```js
-function isSameSign(x, y){ //有0的情况例外
-	return (x ^ y) >= 0; // true 表示 x和y有相同的符号， false表示x，y有相反的符号。
+function isSameSign(x, y) {
+  //有0的情况例外
+  return (x ^ y) >= 0; // true 表示 x和y有相同的符号， false表示x，y有相反的符号。
 }
 ```
+
 ## 对二进制位的操作
+
 ```js
 // 从低位到高位,取n的第m位
-function getBit(n, m){
-	return (n >> (m-1)) & 1;
+function getBit(n, m) {
+  return (n >> (m - 1)) & 1;
 }
 // 从低位到高位.将n的第m位置1
-function setBitToOne(n, m){
-	return n | (1 << (m-1));
-	/*将1左移m-1位找到第m位，得到000...1...000
+function setBitToOne(n, m) {
+  return n | (1 << (m - 1));
+  /*将1左移m-1位找到第m位，得到000...1...000
 	  n在和这个数做或运算*/
 }
 //从低位到高位,将n的第m位置0
-function setBitToZero(n, m){
-	return n & ~(1 << (m-1));
-	/* 将1左移m-1位找到第m位，取反后变成111...0...1111
+function setBitToZero(n, m) {
+  return n & ~(1 << (m - 1));
+  /* 将1左移m-1位找到第m位，取反后变成111...0...1111
 	   n再和这个数做与运算*/
 }
 ```
+
 ## 使用二进制进行子集枚举
+
 ```js
 function process(a, n) {
   for (let i = 1; i < 1 << n; i++) {
     //1<<n相当于2^n，i表示区间中的某一个整数
-    let str = '';
+    let str = "";
     for (let j = 0; j < n; j++) {
       //用j遍历区间中每一个整数的每一位
       if ((i >> j) & (0x01 == 0x01))
         //该为为1,对应元素a[j]存在
-        str +=a[j];
+        str += a[j];
     }
     console.log(str);
   }
 }
 ```
+
 ## 二进制判断 1 的个数
 
 ```js
@@ -219,7 +253,9 @@ let cnt = 0;
 }
 
 ```
+
 ## 提升程序效率的
+
 ```js
 // 计算n+1
 -~n
@@ -230,5 +266,5 @@ let cnt = 0;
 // 取相反数
 (n ^ -1) + 1;
 // 参数为n，当n>0时候返回1，n<0时返回-1，n=0时返回0
-!!n - (((unsigned)n >> 31) << 1); 
+!!n - (((unsigned)n >> 31) << 1);
 ```
