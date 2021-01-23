@@ -1,5 +1,5 @@
 module.exports = {
-  title: "elephantX",
+  title: "elephantGQ",
   description: "闷声发大财",
   dest: "public",
   locales: {
@@ -81,7 +81,7 @@ module.exports = {
         link: "https://github.com/xgq1995",
       },
       {
-        title: "elephantX",
+        title: "elephantGQ",
         desc: "个人网站",
         avatar:
           "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
@@ -120,7 +120,7 @@ module.exports = {
       options: {
         title: 'vuepress-theme-reco',
         platform: 'github',
-        owner: 'xgq1995',
+        owner: 'elephantGQ',
         repo: 'vssue',
         clientId: 'a11648952c96a988bf0d',
         clientSecret: 'e352b6337fd088008dc66ff2111ed365e624f262',
