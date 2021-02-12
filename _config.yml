@@ -1,0 +1,11 @@
+deploy:
+
+type: git
+
+repo:
+
+# github:
+
+coding: https://e.coding.net/elephantx/blog/elephant-blog.git
+
+branch: main
