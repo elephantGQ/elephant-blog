@@ -1,6 +1,6 @@
 ---
 title: 你应该了解的 25 个 JS 技巧
-date: 2020-1-15 16:59
+date: 2021-1-15 16:59
 author: Before Semicolon
 link: https://www.jianshu.com/p/e161bd720e64
 tags:
