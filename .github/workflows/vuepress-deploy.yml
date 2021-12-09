@@ -37,4 +37,4 @@ jobs:
           #用户
           REMOTE_USER: "root"
           #目标地址
-          TARGET: "/data/sheepBlog"
+          TARGET: "/data/elephantBlog"
