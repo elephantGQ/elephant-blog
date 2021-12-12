@@ -387,6 +387,3 @@ ___
 * 本文参考了大量书籍、网络上的文章、图片，实在找不到引用的原文章、原图片了，如有侵权请联系我删除。
 ![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ca53d5ec42b94fc997ad62cf82c5f90d~tplv-k3u1fbpfcp-watermark.image)
 ___
-我是洋洋李，一个前端搬砖小弟
-
-一万年太久，只争朝夕，下次见

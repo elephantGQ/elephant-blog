@@ -300,13 +300,3 @@ string longestPalindrome(string s) {
 2. <a href="https://github.com/labuladong/fucking-algorithm/blob/master/%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.md">寻找最长回文子串</a>
 
 【侵删】
-
----
-
-从零开始学算法，他娘的，太难了！！！
-
-我是洋洋李，一个前端搬砖小弟
-
-一万年太久，只争朝夕，下次见
-
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f768074415b24e35b959c8cd57e6f33f~tplv-k3u1fbpfcp-watermark.image)

@@ -1,6 +1,6 @@
 module.exports = {
   title: "elephantGQ",
-  description: "闷声发大财",
+  description: "乾坤未定，你我皆是黑马",
   dest: "public",
   locales: {
     "/": {

@@ -669,7 +669,4 @@ arr.includes(NaN);
 [引用1](https://juejin.cn/post/6907109642917117965)
 [引用2](https://www.cnblogs.com/kongxianghai/p/7474295.html)
 [引用3](https://www.cnblogs.com/jf-67/p/8440758.html)
-___
-我是洋洋李，一个前端搬砖小弟
 
-一万年太久，只争朝夕，下次见

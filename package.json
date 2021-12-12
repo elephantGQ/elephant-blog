@@ -10,7 +10,7 @@
     "vuepress": "1.7.1",
     "vuepress-theme-reco": "1.6.1"
   },
-  "description": "闷声发大财",
+  "description": "乾坤未定，你我皆是黑马",
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5"
   }

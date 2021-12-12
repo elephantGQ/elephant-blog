@@ -1,19 +1,19 @@
 ---
-title: 函数柯里华
+title: 函数柯里化
 date: 2020-12-15 20:05
 tags:
-  - 柯里华
+  - 柯里化
   - 拆箱
 categories:
   - JS基础
 sidebar: "auto"
 ---
 
-# 柯里华
+# 柯里化
 
 > 在计算机科学中，柯里化（Currying）是把接受多个参数的函数变换成接受一个单一参数(最初函数的第一个参数)的函数，并且返回接受余下的参数且返回结果的新函数的技术。这个技术由 Christopher Strachey 以逻辑学家 Haskell Curry 命名的，尽管它是 Moses Schnfinkel 和 Gottlob Frege 发明的。
 
-## 柯里华的实现
+## 柯里化的实现
 
 ### 利用 Function.length 实现
 

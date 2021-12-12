@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 闷声发大财
-tagline: 一个努力学习的卑微前端.
+heroText: 努力努力在努力
+tagline: 乾坤未定，你我皆是黑马
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
