@@ -36,23 +36,23 @@ module.exports = {
         link: "/timeline/",
         icon: "reco-date",
       },
-      {
-        text: "文档",
-        icon: "reco-message",
-        items: [
-          {
-            text: "vuepress-reco",
-            link: "/docs/theme-reco/",
-          },
-        ],
-      },
+      // {
+      //   text: "文档",
+      //   icon: "reco-message",
+      //   items: [
+      //     {
+      //       text: "vuepress-reco",
+      //       link: "/docs/theme-reco/",
+      //     },
+      //   ],
+      // },
       {
         text: "联系",
         icon: "reco-message",
         items: [
           {
             text: "GitHub",
-            link: "https://github.com/xgq1995",
+            link: "https://github.com/elephantGQ",
             icon: "reco-github",
           },
         ],
@@ -78,14 +78,14 @@ module.exports = {
         title: "GitHub",
         desc: "闷声发大财",
         email: "1336697537@qq.com",
-        link: "https://github.com/xgq1995",
+        link: "https://github.com/elephantGQ",
       },
       {
         title: "elephantGQ",
         desc: "个人网站",
         avatar:
           "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: "https://www.elephant-x.xyz/",
+        link: "https://www.elephantx.xyz/",
       },
     ],
     subSidebar: "auto",
