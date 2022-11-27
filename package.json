@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "vuepress": "1.7.1",
-    "vuepress-theme-reco": "1.6.1"
+    "vuepress-theme-reco": "1.6.16"
   },
   "description": "乾坤未定，你我皆是黑马",
   "dependencies": {
