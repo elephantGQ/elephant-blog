@@ -33,7 +33,7 @@ jobs:
           #源目录
           SOURCE: "public/"
           #服务器Ip:换成你的服务器iP
-          REMOTE_HOST: "8.219.11.38"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           #用户
           REMOTE_USER: "root"
           #目标地址
