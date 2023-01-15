@@ -9,7 +9,7 @@ categories:
 sidebar: "auto"
 ---
 
-### Q1: Vite 不支持 .js 写 JSX 文件
+### Q1: Vite 不支持 .js 写 JSX 文件 
 
 这个是 Vite 默认就不支持的问题，所以这里会有切合业务的两个问题:
 
